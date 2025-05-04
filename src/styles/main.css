@@ -420,7 +420,7 @@ body {
   }
 
   .main-content {
-    width: auto;
+    width: 90%;
     max-width: 300px;
     min-height: 90%;
     display: flex;
@@ -437,16 +437,16 @@ body {
   }
 
   .glass1 {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.17);
     border: 1px solid rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
     border-radius: 1rem;
   }
 
   .glass2 {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.17);
     border: 1px solid rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
     border-radius: 1rem;
   }
 
@@ -482,16 +482,16 @@ body {
 
   @keyframes shimmer {
     0% {
-      background-position: 0% 50%;
-      opacity: 0.2;
+      background-position: 0% 0%;
+      opacity: 0.4;
     }
     50% {
-      background-position: 100% 50%;
+      background-position: 150% 150%;
       opacity: 0.85;
     }
     100% {
-      background-position: 0% 50%;
-      opacity: 0.2;
+      background-position: 0% 0%;
+      opacity: 0.4;
     }
   }
 }
