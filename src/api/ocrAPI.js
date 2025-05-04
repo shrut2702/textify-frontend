@@ -24,8 +24,6 @@ export const predictText = async (file, textThreshold, size, proximity) => {
   }
 }; */
 
-const apiUrl = process.env.REACT_APP_API_URL;
-
 export async function predictTextStream(
   file,
   text_type,
@@ -41,7 +39,7 @@ export async function predictTextStream(
   formData.append("size", size);
   formData.append("proximity", proximity);
 
-  const response = await fetch(`${apiUrl}/predict-stream`, {
+  const response = await fetch("/api/predict-stream", {
     method: "POST",
     body: formData,
   });
