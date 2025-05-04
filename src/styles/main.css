@@ -475,4 +475,19 @@ body {
   .extract-button {
     font-size: 1em;
   }
+
+  @keyframes shimmer {
+    0% {
+      background-position: 0% 50%;
+      opacity: 0.55;
+    }
+    50% {
+      background-position: 100% 50%;
+      opacity: 0.85;
+    }
+    100% {
+      background-position: 0% 50%;
+      opacity: 0.55;
+    }
+  }
 }
