@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "http://13.203.101.245:8080/$1"
+      "destination": "http://3.110.209.190:8080/$1"
     }
   ]
 }
